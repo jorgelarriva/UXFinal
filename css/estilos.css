@@ -1,1 +1,292 @@
+body {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 
+nav {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 5px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px 20px;
+    color: #FFFFFF;
+    background-color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    background-color: #333333;
+    color: #FFFFFF;
+}
+
+section {
+    max-width: 800px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    padding: 0 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #FFFFFF;
+    background-color: #000000;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 0;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 10px;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+h2 {
+	margin-top: 10px;
+    margin-right: 0;
+    margin-bottom: 5px;
+    margin-left: 0;
+}
+
+p {
+    line-height: 1.6;
+    text-align: justify;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+    margin-left: 0;
+}
+
+section ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+section ul li {
+    margin: 0 0 5px 0; 
+}
+
+img {
+    max-width: 73.5%;
+    height: auto;
+    display: block;
+    border: 2px solid #000000;
+    border-radius: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+video {
+    max-width: 73.5%;
+    width: 560px;
+    height: auto;
+    display: block;
+    border: 2px solid #000000;
+    border-radius: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #f9f9f9;
+    color: #000000;
+}
+
+section nav {
+    background-color: transparent;
+    color: #000000;
+    padding: 0;
+    margin-left: 0;
+    margin-bottom: 5px;
+    width: auto;
+}
+
+section nav ul {
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+section nav ul li {
+    display: inline-block;
+    color: #555555;
+    background-color: transparent;
+    font-size: 14px;
+}
+
+section nav ul li a {
+    background-color: transparent;
+    color: #000000;
+    padding: 0;
+    font-weight: normal;
+    display: inline;
+}
+
+section nav ul li a:hover {
+    background-color: transparent;
+    text-decoration: none;
+    color: #666666;
+    cursor: pointer;
+}
+
+section nav ul li::after {
+    content: " > ";
+    margin: 0 5px;
+    color: #999;
+    background-color: transparent; 
+}
+
+section nav ul li:last-child::after {
+    content: "";
+}
+
+section a:active {
+    color: #FF0000;
+    background-color: transparent;
+}
+
+section a:focus {
+    outline: 2px dashed #000000;
+    background-color: #FFFFCC;
+    color: #000000;
+}
+
+time {
+    position: absolute;
+    right: 20px;
+    top: 65px;
+    color: #000000;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: normal;
+    background-color: transparent;
+    padding: 0;
+}
+
+.title-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.lang-flag img {
+    width: 40px;
+    height: auto;
+    border-radius: 0;
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+form[name="buscador"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 5px 0;
+    margin: 0;
+}
+
+form[name="buscador"] input[name="search"] {
+    padding: 6px 10px;
+    font-size: 14px;
+    border: 1px solid #000;
+    width: 180px;
+    outline: none;
+}
+
+form[name="buscador"] input[name="search"]:focus {
+    outline: 2px solid #000;
+    box-shadow: none;
+}
+
+form[name="buscador"] button {
+    padding: 6px 12px;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+form[name="buscador"] button:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+form[name="buscador"] button:focus {
+    outline: 2px solid #000;
+    box-shadow: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+form + section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    font-family: inherit;
+    background-color: transparent;
+    color: #000000;
+}
+
+button {
+    margin-bottom: 0px;
+}
+
+label {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	border: 0;
+}
