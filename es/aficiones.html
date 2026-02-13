@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+	  <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <title>Mis Aficiones - Mi Sitio Web Personal</title>
+	  <link rel="Stylesheet" href="../css/estilos.css">
+	  <link rel="stylesheet" href="../css/movil.css" media="screen and (max-width: 600px)">
+	</head>
+
+	<body>
+		<nav>
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="aficiones.html">Aficiones</a></li>
+				<li><a href="proyectos.html">Proyectos</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+			
+		</nav>
+
+		<form name="buscador">
+			<label for="campo-buscar">Término de búsqueda</label>
+			<input type="search" name="search" id="campo-buscar" placeholder="Buscar...">
+			
+			<button type="submit" aria-label="Buscar">🔍</button>
+		</form>
+		<main>
+			<section>
+				<h2 hidden>Resultados de la busqueda</h2>
+			</section>
+			
+			<section>
+				<time datetime="2025-12-09">Actualizado a 9 de Diciembre de 2025</time>
+				<nav aria-label="Breadcrumb">
+				<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<li>Aficiones</li>
+				</ul>
+			  </nav>
+			  <header class="title-row">
+				  <h1>Mis aficiones</h1>
+
+				  <a href="../en/hobbies.html" lang="en" title="Cambiar a ingles" class="lang-flag">
+					<img src="../img/en.png" alt="Imagen de Bandera Inglesa">
+				  </a>
+			  </header>
+			  <p>En mi tiempo libre disfruto de varias actividades. Me gusta estar al día en redes sociales, 
+			  seguir a influencers y enterarme de las últimas novedades del mundo digital. También suelo leer 
+			  cómics, ver series en plataformas como Netflix y, como no, echarme unas partidas a videojuegos 
+			  cuando quiero desconectar. Por supuesto, sigo dedicando tiempo a mis hobbies tecnológicos.
+			  La lista de mis aficiones es:</p>
+			  <ul>
+				<li>Programación</li>
+				<li>Música</li>
+				<li>Videojuegos</li>
+				<li>Leer cómics</li>
+				<li>Ver series en plataformas</li>
+				<li>Redes sociales y contenido digital</li>
+			  </ul>
+			  <img src="../img/aficiones.png" alt="Imagen que representa aficiones">
+			</section>
+		</main>
+		<footer>
+			<p>&copy; 2025 Mi Sitio Web Personal</p>
+		</footer>
+		<script src="../js/buscador.js"></script>
+		<script src="../js/resaltar.js"></script>
+	</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+	  <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <title>Contacto - Mi Sitio Web Personal</title>
+	  <link rel="Stylesheet" href="../css/estilos.css">
+	  <link rel="stylesheet" href="../css/movil.css" media="screen and (max-width: 600px)">
+	</head>
+
+	<body>
+		<nav>
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="aficiones.html">Aficiones</a></li>
+				<li><a href="proyectos.html">Proyectos</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+		
+		<form name="buscador">
+			<label for="campo-buscar">Término de búsqueda</label>
+			<input type="search" name="search" id="campo-buscar" placeholder="Buscar...">
+			
+			<button type="submit" aria-label="Buscar">🔍</button>
+		</form>
+		<main>
+			<section>
+				<h2 hidden>Resultados de la búsqueda</h2>
+			</section>
+			
+			<section>
+			  <time datetime="2025-12-09">Actualizado a 9 de Diciembre de 2025</time>
+			  <nav aria-label="Breadcrumb">
+				<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<li>Contacto</li>
+				</ul>
+			  </nav>
+			  <header class="title-row">
+				  <h1>Contacto</h1>
+
+				  <a href="../en/contact.html" lang="en" title="Cambiar a inglés" class="lang-flag">
+					<img src="../img/en.png" alt="Imagen de Bandera Inglesa">
+				  </a>
+			  </header>
+			  <p>Si quieres ponerte en contacto conmigo, aquí tienes algunas opciones:</p>
+			  
+			  <ul>
+				<li>Email: <a href="mailto:uo277715@uniovi.es?subject=Consulta%20Web&body=Hola%20Jorge," 
+				title="Enviar un correo electrónico.">uo277715@uniovi.es</a></li>
+				<li>LinkedIn: <a href="https://linkedin.com/in/jorgelarriva" title="Ir al perfil de LinkedIn.">Mi LinkedIn</a></li>
+			  </ul>
+			  
+			  <h2>Avalan</h2>
+			  <p>Si quieres ponerte en contacto con institución o persona que me avale:</p>
+			  <ul>
+				<li>Contacto institucional (Universidad):  
+					<a href="mailto:eii@uniovi.es" 
+					   title="Enviar correo a la administración de la Universidad.">
+						eii@uniovi.es
+					</a>
+				</li>
+				<li>Tutor de prácticas (empresa Nea Master):  
+					<a href="mailto:javieruria@neamaster.com"
+					   title="Enviar correo al tutor de prácticas.">
+						javieruria@neamaster.com
+					</a>
+				</li>
+			  </ul>
+			</section>
+		</main>
+		<footer>
+			<p>&copy; 2025 Mi Sitio Web Personal</p>
+		</footer>
+		<script src="../js/buscador.js"></script>
+		<script src="../js/resaltar.js"></script>
+	</body>
+</html>

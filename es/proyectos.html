@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+	  <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <title>Proyectos - Mi Sitio Web Personal</title>
+	  <link rel="Stylesheet" href="../css/estilos.css">
+	  <link rel="stylesheet" href="../css/movil.css" media="screen and (max-width: 600px)">
+	</head>
+
+	<body>
+		<nav>
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="aficiones.html">Aficiones</a></li>
+				<li><a href="proyectos.html">Proyectos</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+		
+		<form name="buscador">
+			<label for="campo-buscar">Término de búsqueda</label>
+			<input type="search" name="search" id="campo-buscar" placeholder="Buscar...">
+			
+			<button type="submit" aria-label="Buscar">🔍</button>
+		</form>
+		<main>
+			<section>
+				<h2 hidden>Resultados de la búsqueda</h2>
+			</section>
+			
+			<section>
+			  <time datetime="2025-12-09">Actualizado a 9 de Diciembre de 2025</time>
+			  <nav aria-label="Breadcrumb">
+				<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<li>Proyectos</li>
+				</ul>
+			  </nav>
+			  <header class="title-row">
+				  <h1>Mis proyectos</h1>
+
+				  <a href="../en/projects.html" lang="en" title="Cambiar a inglés" class="lang-flag">
+					<img src="../img/en.png" alt="Imagen de Bandera Inglesa">
+				  </a>
+			  </header>
+			  <p>Me dedico a realizar proyectos personales en mi tiempo libre, entre los que destacan:</p>
+			  <ul>
+				<li>Videojuegos, ya que desarrollo pequeños juegos por diversión y pasatiempos.</li>
+				<li>Páginas web ya que es lo que más me gusta en este campo, disfruto creando sitios web funcionales, estéticos y accesibles.</li>
+				<li>Proyectos colaborativos ya que he participado en iniciativas con compañeros, practicando control de versiones y trabajo en equipo.</li>
+			  </ul>
+			  <p>En el siguiente enlace puedes ver algunos de los proyectos en los que he trabajado:</p>
+			  <p>
+				<a href="https://github.com/jorgelarriva/" title="Ir al perfil de GitHub">
+				  Mi GitHub 
+				</a>
+			  </p>
+			</section>
+		</main>
+		<footer>
+			<p>&copy; 2025 Mi Sitio Web Personal</p>
+		</footer>
+		<script src="../js/buscador.js"></script>
+		<script src="../js/resaltar.js"></script>
+	</body>
+</html>

@@ -1,1 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+	  <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <title>Inicio - Mi Sitio Web Personal</title>
+	  <link rel="stylesheet" href="../css/estilos.css">
+	  <link rel="stylesheet" href="../css/movil.css" media="screen and (max-width: 600px)">
+	</head>
 
+	<body>
+		<nav>
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="aficiones.html">Aficiones</a></li>
+				<li><a href="proyectos.html">Proyectos</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+			</ul>
+		</nav>
+		
+		<form name="buscador">
+			<label for="campo-buscar">Término de búsqueda</label>
+			<input type="search" name="search" id="campo-buscar" placeholder="Buscar...">
+			
+			<button type="submit" aria-label="Buscar">🔍</button>
+		</form>
+		
+		<main>
+			<section>
+				<h2 hidden>Resultados de la búsqueda</h2>
+			</section>
+
+			<section>
+				<time datetime="2025-12-09">Actualizado a 9 de Diciembre de 2025</time>
+				<nav aria-label="Breadcrumb">
+					<ul>
+						<li>Inicio</li>
+					</ul>
+				</nav>
+				<header class="title-row">
+					<h1>Presentación</h1>
+
+					<a href="../en/index.html" lang="en" title="Cambiar a inglés" class="lang-flag">
+						<img src="../img/en.png" alt="English version">
+					</a>
+				</header>
+				<p>
+					Hola, soy Jorge. Me he graduado en Ingeniería Informática del Software en la Universidad de Oviedo.
+					Durante la carrera estudié un año en la Universidad de Alicante gracias al programa SICUE y también pasé un cuatrimestre en la Universidad de Málaga.
+					Realicé un mes de prácticas en la empresa Nea Master, en Asturias, donde pude aplicar mis conocimientos en un entorno real.
+					Actualmente curso el máster en Ingeniería Web y utilizo este sitio web para mostrar mis proyectos y mis intereses.
+				</p>
+				<img src="../img/ejemploweb.png" alt="Ordenador portatil mostrando una web">
+				
+				<video width="560" controls>
+					<source src="../video/informatica.mp4" type="video/mp4">
+					</video>
+			</section>
+		</main>
+		
+		<footer>
+			<p>&copy; 2025 Mi Sitio Web Personal</p>
+		</footer>
+		<script src="../js/buscador.js"></script>
+		<script src="../js/resaltar.js"></script>
+	</body>
+</html>
