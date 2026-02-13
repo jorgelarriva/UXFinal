@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	  <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <title>Projects - My Personal Website</title>
+	  <link rel="stylesheet" href="../css/estilos.css">
+	  <link rel="stylesheet" href="../css/movil.css" media="screen and (max-width: 600px)">
+	</head>
+
+	<body>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="hobbies.html">Hobbies</a></li>
+				<li><a href="projects.html">Projects</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		
+		<form name="buscador">
+			<label for="campo-buscar">Término de búsqueda</label>
+			<input type="search" name="search" id="campo-buscar" placeholder="Buscar...">
+			
+			<button type="submit" aria-label="Buscar">🔍</button>
+		</form>
+		<main>
+			<section>
+				<h2 hidden>Resultados de la búsqueda</h2>
+			</section>
+			
+			<section>
+			  <time datetime="2025-12-09">Actualizado a 9 de Diciembre de 2025</time>
+			  <nav aria-label="Breadcrumb">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li>Projects</li>
+				</ul>
+			  </nav>
+			  <header class="title-row">
+				  <h1>My projects</h1>
+
+				  <a href="../es/proyectos.html" lang="es" title="Cambiar a español" class="lang-flag">
+					<img src="../img/es.png" alt="Imagen de Bandera de España">
+				  </a>
+			  </header>
+			  <p>I dedicate myself to personal projects in my free time, among which the following stand out:</p>
+			  <ul>
+				<li>Video Games, as I develop small games for fun and pastimes.</li>
+				<li>Websites, as this is what I like most in this field; I enjoy creating functional, aesthetic, and accessible websites.</li>
+				<li>Collaborative Projects, as I have participated in initiatives with colleagues, practicing version control and teamwork.</li>
+			  </ul>
+			  <p>You can see some of the projects I have worked on in the following link:</p>
+			  <p>
+				<a href="https://github.com/jorgelarriva/" title="Go to GitHub profile">
+				  My GitHub
+				</a>
+			  </p>
+			</section>
+		</main>
+		<footer>
+			<p>&copy; 2025 My Personal Website</p>
+		</footer>
+		<script src="../js/buscador.js"></script>
+		<script src="../js/resaltar.js"></script>
+	</body>
+</html>

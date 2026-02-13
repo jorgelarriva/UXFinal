@@ -1,1 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	  <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <title>Home - My Personal Website</title>
+	  <link rel="Stylesheet" href="../css/estilos.css"> 
+	  <link rel="stylesheet" href="../css/movil.css" media="screen and (max-width: 600px)">
+	</head>
 
+	<body>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="hobbies.html">Hobbies</a></li>
+				<li><a href="projects.html">Projects</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+
+	    <form name="buscador">
+			<label for="campo-buscar">Término de búsqueda</label>
+			<input type="search" name="search" id="campo-buscar" placeholder="Buscar...">
+			
+			<button type="submit" aria-label="Buscar">🔍</button>
+		</form>
+		<main>
+			<section>
+				<h2 hidden>Resultados de la búsqueda</h2>
+			</section>
+			
+			<section>
+				<time datetime="2025-12-09">Updated December 9, 2025</time>
+				<nav aria-label="Breadcrumb">
+				  <ul>
+					<li>Home</li>
+				  </ul>
+				</nav>
+
+				<header class="title-row">
+				  <h1>Presentation</h1>
+
+				  <a href="../es/index.html" lang="es" title="Cambiar a español" class="lang-flag">
+					<img src="../img/es.png" alt="Imagen de Bandera de España">
+				  </a>
+				</header>
+
+				<p>
+				  Hello, I'm Jorge. I graduated in Software Engineering from the University of Oviedo.
+				  During my degree, I studied for one year at the University of Alicante thanks to the SICUE program, and I also spent a semester at the University of Málaga.
+				  I completed a one-month internship at the company Nea Master in Asturias, where I was able to apply my knowledge in a real environment.
+				  I am currently pursuing a Master's in Web Engineering and I use this website to showcase my projects and interests.
+				</p>
+
+				<img src="../img/ejemploweb.png" alt="Image of a laptop computer">
+
+				<video width="560" controls>
+				  <source src="../video/informatica.mp4" type="video/mp4">
+				</video>
+		    </section>
+	  </main>
+	  <footer>
+		<p>&copy; 2025 My Personal Website</p>
+	  </footer>
+	  <script src="../js/buscador.js"></script>
+	  <script src="../js/resaltar.js"></script>
+	</body>
+</html>

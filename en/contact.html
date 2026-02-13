@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	  <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <title>Contact - My Personal Website</title>
+	  <link rel="stylesheet" href="../css/estilos.css">
+	  <link rel="stylesheet" href="../css/movil.css" media="screen and (max-width: 600px)">
+	</head>
+
+	<body>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="hobbies.html">Hobbies</a></li>
+				<li><a href="projects.html">Projects</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+		
+		<form name="buscador">
+			<label for="campo-buscar">Término de búsqueda</label>
+			<input type="search" name="search" id="campo-buscar" placeholder="Buscar...">
+			
+			<button type="submit" aria-label="Buscar">🔍</button>
+		</form>
+		<main>
+			<section>
+				<h2 hidden>Resultados de la búsqueda</h2>
+			</section>
+			
+			<section>
+			  <time datetime="2025-12-09">Actualizado a 9 de Diciembre de 2025</time>
+			  <nav aria-label="Breadcrumb">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li>Contact</li>
+				</ul>
+			  </nav>
+			  <header class="title-row">
+				  <h1>Contact</h1>
+
+				  <a href="../es/contacto.html" lang="es" title="Cambiar a español" class="lang-flag">
+					<img src="../img/es.png" alt="Imagen de Bandera de España">
+				  </a>
+			  </header>
+			  <p>If you want to get in touch with me, here are some options:</p>
+			  
+			  <ul>
+				<li>Email: <a href="mailto:uo277715@uniovi.es?subject=Web%20Inquiry&body=Hello%20Jorge,"
+				title="Send an email.">uo277715@uniovi.es</a></li>
+				<li>LinkedIn: <a href="https://linkedin.com/in/jorgelarriva" title="Go to LinkedIn profile.">My LinkedIn</a></li>
+			  </ul>
+			  
+			  <h2>References</h2>
+			  <p>If you want to contact an institution or person who can vouch for me:</p>
+			  <ul>
+				<li>Institutional Contact (University):
+					<a href="mailto:eii@uniovi.es"
+					  title="Send email to the University administration.">
+						eii@uniovi.es
+					</a>
+				</li>
+				<li>Internship Supervisor (Nea Master company):
+					<a href="mailto:javieruria@neamaster.com"
+					  title="Send email to the internship supervisor.">
+						javieruria@neamaster.com
+					</a>
+				</li>
+			  </ul>
+			</section>
+		</main>
+		<footer>
+			<p>&copy; 2025 My Personal Website</p>
+		</footer>
+		<script src="../js/buscador.js"></script>
+		<script src="../js/resaltar.js"></script>
+	</body>
+</html>
