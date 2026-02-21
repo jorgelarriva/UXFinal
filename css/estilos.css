@@ -215,7 +215,6 @@ time {
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
-    border: none;
 }
 
 form[name="buscador"] {
@@ -291,3 +290,4 @@ label {
     overflow: hidden;
     border: 0;
 }
+
