@@ -31,12 +31,13 @@ nav ul li a {
     color: #FFFFFF;
     background-color: #000000;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 800;
 }
 
 nav ul li a:hover {
     background-color: #333333;
     color: #FFFFFF;
+	text-decoration: underline;
 }
 
 section {
@@ -287,6 +288,6 @@ label {
 	padding: 0;
 	margin: -1px;
 	overflow: hidden;
-	clip: rect(0, 0, 0, 0);
 	border: 0;
+
 }
